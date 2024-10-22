@@ -10,9 +10,7 @@ def calculate_body_fat(age, gender, weight, height_feet):
     return body_fat_percentage
 
 
-st.title("Body Fat Calculator")
-
-
+st.title("BMI Calculator")
 
 age = st.number_input("Age", min_value=1, max_value=120, value=30)
 gender = st.selectbox("Gender", options=["Male", "Female"])
